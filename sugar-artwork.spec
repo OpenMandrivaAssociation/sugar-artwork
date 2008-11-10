@@ -4,7 +4,7 @@
 Summary: Artwork for Sugar look-and-feel
 Name: sugar-artwork
 Version: 0.82.3
-Release: 1
+Release: %mkrel 1
 #Release: 2.%{alphatag}
 URL: http://dev.laptop.org
 # git clone git://dev.laptop.org/artwork
