@@ -12,7 +12,7 @@ URL: http://dev.laptop.org
 # git-checkout %{commitid}
 #Source0: %{name}-%{version}-git%{commitid}.tar.bz2
 Source0: http://dev.laptop.org/pub/sugar/sources/%{name}/%{name}-%{version}.tar.bz2 
-Group: User Interface/Desktops
+Group: Graphical desktop/Other
 License: LGPLv2+
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
