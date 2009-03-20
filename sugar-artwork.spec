@@ -2,7 +2,7 @@
 
 Name: sugar-artwork
 Version: 0.84.1
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Artwork for Sugar look-and-feel
 License: LGPLv2+
 Group: Graphical desktop/Other
