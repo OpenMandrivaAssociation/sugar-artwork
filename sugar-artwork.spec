@@ -14,7 +14,7 @@ Requires: gtk+2 >= 2.9.0
 Requires: sugar-base >= 0.84.0
 
 BuildRequires: perl-XML-Parser  
-BuildRequires: libgtk+2-devel >= 2.9.0
+BuildRequires: gtk+2-devel >= 2.9.0
 BuildRequires: icon-naming-utils  
 BuildRequires: icon-slicer  
 BuildRequires: python  
