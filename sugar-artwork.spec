@@ -29,18 +29,15 @@ Contains the themes and icons that make up the Sugar default look and feel.
 %setup -q -n sugar-artwork-0.84.1
 
 
-# eliminate %%configure's "clever" behaviour
-%define __libtoolize true
-
 %build
-%configure 
-make 
+%define __libtoolize true
+%configure
+make
 
 %install
 rm -rf %{buildroot}
-make  \
-	DESTDIR=%{buildroot} \
-	install
+make DESTDIR=%{buildroot} install
+rm -f %{buildroot}/%{_libdir}/gtk-2.0/*/engines/*.la
 
 
 %clean
@@ -54,8 +51,8 @@ rm -rf %{buildroot}
 
 %files 
 %defattr(-,root,root,-)
-%_datadir/icons/*
-%_datadir/themes/*
-%_libdir/gtk*/*/engines/*
+%{_datadir}/icons/*
+%{_datadir}/themes/*
+%{_libdir}/gtk*/*/engines/*
 %doc COPYING NEWS README
 
