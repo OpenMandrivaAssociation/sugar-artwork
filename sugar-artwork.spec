@@ -59,3 +59,363 @@ rm -rf %{buildroot}
 %{_libdir}/gtk*/*/engines/*
 %doc COPYING NEWS README
 
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 0.88.0-2mdv2011.0
++ Revision: 615030
+- the mass rebuild of 2010.1 packages
+
+* Sat Apr 03 2010 Aleksey Lim <alsroot@mandriva.org> 0.88.0-1mdv2010.1
++ Revision: 530886
+- Sucrose 0.88.0 release
+
+* Fri Sep 25 2009 Aleksey Lim <alsroot@mandriva.org> 0.86.0-1mdv2010.0
++ Revision: 448708
+- Update to 0.86.0
+
+* Fri Sep 18 2009 Aleksey Lim <alsroot@mandriva.org> 0.85.4-1mdv2010.0
++ Revision: 444477
+- Update to 0.85.4
+
+* Fri Sep 11 2009 Aleksey Lim <alsroot@mandriva.org> 0.85.3-1mdv2010.0
++ Revision: 438473
+- Update to 0.85.3
+
+* Tue Aug 11 2009 Aleksey Lim <alsroot@mandriva.org> 0.85.2-1mdv2010.0
++ Revision: 414747
+- Sucrose 0.85.2 release
+
+* Fri Mar 20 2009 Aleksey Lim <alsroot@mandriva.org> 0.84.1-3mdv2009.1
++ Revision: 359167
++ rebuild (emptylog)
+
+* Fri Mar 20 2009 Aleksey Lim <alsroot@mandriva.org> 0.84.1-2mdv2009.1
++ Revision: 359162
+- Build with new icon-slicer
+
+* Fri Mar 13 2009 Aleksey Lim <alsroot@mandriva.org> 0.84.1-1mdv2009.1
++ Revision: 354530
+- minor update to 0.84.1
+
+* Wed Mar 04 2009 Aleksey Lim <alsroot@mandriva.org> 0.84.0-1mdv2009.1
++ Revision: 348259
+- Sucrose 0.84.0 release
+
+* Mon Feb 23 2009 Aleksey Lim <alsroot@mandriva.org> 0.83.5-1mdv2009.1
++ Revision: 344133
+- Sucrose 0.83.6 release
+
+* Sun Feb 15 2009 Aleksey Lim <alsroot@mandriva.org> 0.83.4-1mdv2009.1
++ Revision: 340402
+- new Sucrose 0.83.5 release
+
+* Tue Jan 20 2009 Aleksey Lim <alsroot@mandriva.org> 0.83.3-1mdv2009.1
++ Revision: 331938
+- new Sucrose 0.83.4 release
+
+* Sun Jan 11 2009 Aleksey Lim <alsroot@mandriva.org> 0.83.2-1mdv2009.1
++ Revision: 328373
+- Sugar 0.83.3 release
+
+* Mon Nov 10 2008 Bogdano Arendartchuk <bogdano@mandriva.com> 0.82.3-1mdv2009.1
++ Revision: 301833
+- import sugar-artwork
+
+
+* Tue Sep 23 2008 Simon Schampijer <simon@laptop.org> - 0.82.3-1
+- Fix corrupted network-wireless-060.svg
+
+* Sat Sep 20 2008 Marco Pesenti Gritti <mpg@redhat.com> - 0.82.2-1
+- #7685 Alternate home layouts; fixed ring scaling; better modularization of layouts
+- #8554 Indicate connected AP in Neighborhood view.
+- #8198 Use a plainer "wrench" for the Settings icon
+- #7987 Home view XO icon palette for Control Panel has wrong icon
+
+* Sat Sep  6 2008 Tom "spot" Callaway <tcallawa@redhat.com> - 0.82.1-2
+- fix license tag
+
+* Thu Aug 28 2008 Marco Pesenti Gritti <mpg@redhat.com> - 0.82.1-1
+- #4312 need volume button icons for totem player
+- #7939 Missing stock icons
+
+* Thu Aug 07 2008 Marco Pesenti Gritti <mpg@redhat.com> - 0.82.0-1
+- 7641 Install GTK compatibility symlinks using icon-naming-utils package
+
+* Wed Jul 09 2008 Simon Schampijer <simon@laptop.org> - 0.81.6-2.20080709gitc77b345c02
+- git snapshot
+- 7385 Add view-freeform icon (eben)
+
+* Sat Jun 21 2008 Tomeu Vizoso <tomeu@tomeuvizoso.net> - 0.81.1
+- Some improvements to the gtk theme (benzea)
+
+* Fri Jun 13 2008 Simon Schampijer <simon@laptop.org> - 0.79.3-1
+- Update to 0.79.3
+
+* Wed Apr 09 2008 Tomeu Vizoso <tomeu@tomeuvizoso.net> - 0.79.2
+- Misc. icon fixes.
+
+* Thu Apr 03 2008 Simon Schampijer <simon@laptop.org> - 0.79.1
+- Frame/Home redesign - Put corner stone
+
+* Sat Feb  9 2008 Marco Pesenti Gritti <mpg@redhat.com> - 0.79.0-1
+- Update to 0.79.0
+
+* Fri Nov 02 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.33.20071102git0763fefc48
+- #4610 Prevent a division by zero while making icons insensitive. (benzea)
+
+* Fri Nov 02 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.32.20071102git9bc8be4d48
+- #4568 Implement a better effect for insensitive icons [may need more tweaking] (benzea)
+- Added tray-hide/show icons (eben)
+- Added a zoom-original button for returning to actual size (eben)
+- Updated the full media button set to the new design spec (eben)
+- Added fullscreen (and return) buttons (eben)
+- #4595 Fixed the "wiggle" in the busy cursor (eben)
+
+* Fri Oct 19 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.31.20071019git811b41812a
+- New snapshot
+
+* Tue Oct  9 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.30.20071009git91d9239340
+- New snapshot
+
+* Sun Oct  7 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.29.20071007git9b93ff3a3f
+- New snapshot
+
+* Fri Sep 14 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.28.20070914git2aac89b4fe
+- New snapshot
+
+* Wed Sep 12 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.26.20070912gite4fd20770c
+- New snapshot
+
+* Sun Sep  9 2007 Dan Williams <dcbw@redhat.com> - 0.34-0.25.20070909git2e13ad392d
+- New snapshot
+
+* Thu Sep  6 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.24.20070906gitf89f6e00cc
+- New snapshot
+
+* Thu Aug 30 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.23.20070830gitd2120f79b7
+- New snapshot
+
+* Wed Aug 29 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.21.20070829git60139d01c3
+- New snapshot
+
+* Tue Aug 28 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.20.20070827git931d3dee31
+- New snapshot
+
+* Wed Aug 22 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.19.20070822git8de1d5be84
+- New snapshot
+
+* Mon Aug 20 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.18.20070820git81695a321f
+- New snapshot
+
+* Tue Aug 14 2007 John (J5) Palmieri <johnp@redhat.com> - 0.34-0.15.20070814gitb0228a578f
+- New snapshot
+
+* Fri Jul 27 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.15.20070727git359c47de2c
+- New snapshot
+
+* Wed Jul 25 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.14.20070725git37744886a7
+- New snapshot
+
+* Tue Jul 24 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.13.20070724git3368046fdc
+- New snapshot
+
+* Sat Jul 21 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.12.20070721gitb4d5062514
+- New snapshot
+
+* Thu Jul 19 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.11.20070719gitf662ad4507
+- New snapshot
+
+* Wed Jul 18 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.10.20070718giteb3ffd0171
+- New snapshot
+
+* Tue Jul 17 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.9.20070716gita0c7965b7b
+- New snapshot
+
+* Mon Jul 16 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.8.20070715git7724264dab
+- New snapshot
+
+* Fri Jul 13 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.7.20070713git454a63a3f0
+- New snapshot
+
+* Wed Jul 11 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.6.20070711git4d612c6644
+- New snapshot
+
+* Fri Jul  6 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.5.20070705gitaddbcacbc5
+- Several new icons for network and journal
+
+* Fri Jun 29 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.4.20070629git13fafab42e
+- Minor tweaks to the controls style.
+
+* Thu Jun 28 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.3.20070628git6c74e162ca
+- New snapshot
+
+* Tue Jun 26 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.34-0.2.20070626gitc788870202
+- New snapshot
+
+* Sat Jun 16 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.33-3.git5aef11739b
+- Spec cleanups, patch by ivazqueznet@gmail.com
+- Rename to sugar-artwork
+
+* Thu Jun 14 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.33-3.git5640efb030
+- Fix comboboxes on the toolbars
+
+* Mon Jun  4 2007 Marco Pesenti Gritti <mpg@redhat.com> - 0.33-2.gitc3d3dce71b
+- New snapshot
+
+* Mon May 28 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.20.20070528git
+- More work on the gtk theme
+
+* Wed May 16 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.19.20070516git
+- Add icon for call
+
+* Mon May 14 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.17.20070514git
+- More work on the theme
+
+* Thu May 11 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.16.20070511git
+- Fix cursors
+
+* Thu May 11 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.15.20070511git
+- Better gtk theme
+
+* Thu May 10 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.14.20070510git
+- New snapshot
+
+* Thu Mar 29 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.12.20070329git
+- Add an icon for the mesh device
+
+* Thu Mar 22 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.11.20070322git
+- Remove conflict with redhat-artwork
+
+* Wed Mar 21 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.10.20070321git
+- Fix italic icon
+
+* Tue Mar 20 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.9.20070320git
+- New icons for the write activity
+
+* Mon Mar 19 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.8.20070319git
+- More matchbox theme fixes
+
+* Mon Mar 19 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.7.20070319git
+- Fix matchbox font size
+
+* Thu Mar 15 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.6.20070315git
+- Fix font an icons size
+
+* Wed Mar  7 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.5.20070307git
+- Put back the gtk theme
+
+* Fri Mar  2 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.4.20070302git
+- Update snapshot
+
+* Wed Feb 28 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.3.20070228git
+- Update snapshot
+
+* Wed Feb 28 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.2.20070228git
+- Update snapshot
+
+* Sat Feb 24 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-2.1.20070224git
+- Update to 2.1.20070224git
+
+* Wed Feb  8 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.33-1
+- Update to 0.33
+
+* Wed Jan 31 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.32-1
+- Update to 0.32
+
+* Mon Jan 29 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.31-1
+- Update to 0.31
+
+* Tue Jan 16 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.30-1
+- Update to 0.30
+
+* Wed Jan 11 2007 Marco Pesenti Gritti <mpg@redhat.com> 0.29-1
+- Update to 0.29
+
+* Tue Dec 19 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.28-1
+- Update to 0.28
+
+* Tue Dec 19 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.27-1
+- Update to 0.27
+
+* Fri Nov 17 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.26-1
+- Update 0.26
+
+* Thu Nov  9 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.25-1
+- Update to 0.25
+
+* Wed Nov  8 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.24-1
+- Update to 0.24
+
+* Sat Nov  4 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.23-1
+- Update to 0.23
+
+* Fri Nov  3 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.22-1
+- Update to 0.22 
+
+* Mon Oct 30 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.21-1
+- Update to 0.21
+
+* Wed Oct 25 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.20-1
+- Update to 0.20
+
+* Tue Oct 24 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.19-1
+- Update to 0.19
+
+* Fri Oct 20 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.18-1
+- Update to 0.18
+
+* Thu Oct 19 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.17-1
+- Update to 0.17
+
+* Wed Oct 18 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.16-1
+- Update to 0.16
+
+* Tue Oct 17 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.15-1
+- Update to 0.15
+
+* Thu Oct 13 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.14-1
+- Buld 0.14
+
+* Thu Oct  5 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.13-1
+- Build 0.13
+
+* Mon Sep 11 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.12-1
+- Build 0.12
+
+* Fri Aug 21 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.11-1
+- Build 0.11
+
+* Fri Jun  30 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.10-1
+- Build 0.10 and add xorg-x11-apps
+
+* Fri Jun  29 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.9-1
+- Build 0.9
+
+* Fri Jun  22 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.8-1
+- Build 0.8
+
+* Thu Jun  21 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.7-2
+- Add some unpackaged files
+
+* Thu Jun  7 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.7-1
+- Build 0.7
+
+* Thu Jun  7 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.6-1
+- Build 0.6
+
+* Thu Jun  7 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.5-1
+- Build 0.5
+
+* Thu Jun  7 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.4-2
+- Add build require (perl xml parser)
+
+* Thu Jun  7 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.4-1
+- Build 0.4
+
+* Thu May 23 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.3-1
+- Build 0.3
+
+* Thu May 22 2006 Marco Pesenti Gritti <mpg@redhat.com> 0.2-1
+- Build 0.2
+
