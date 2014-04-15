@@ -3,18 +3,16 @@
 %define _disable_ld_no_undefined 1
 
 Name:		sugar-artwork
-Version:	0.88.0
-Release:	3
+Version:	0.101.4
+Release:	1
 Summary:	Artwork for Sugar look-and-feel
 License:	LGPLv2+
 Group:		Graphical desktop/Other
 Url:		http://sugarlabs.org/
 
-Source0:	http://download.sugarlabs.org/sources/sucrose/glucose/sugar-artwork/sugar-artwork-0.88.0.tar.bz2
+Source0:	http://download.sugarlabs.org/sources/sucrose/glucose/sugar-artwork/sugar-artwork-%{version}.tar.xz
 
-Patch:	sugar-artwork-0.88.0-sugar-1899.patch
-
-Requires:	gtk+2 >= 2.9.0
+Requires:	gtk+2.0 >= 2.9.0
 Requires:	sugar-base >= 0.88.0
 
 BuildRequires:	perl-XML-Parser  
@@ -28,7 +26,7 @@ BuildRequires:	xcursorgen
 Contains the themes and icons that make up the Sugar default look and feel.
 
 %prep
-%setup -q -n sugar-artwork-0.88.0
+%setup -q
 %patch -p1
 
 %build
