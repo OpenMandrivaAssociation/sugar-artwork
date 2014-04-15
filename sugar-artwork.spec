@@ -17,6 +17,7 @@ Requires:	sugar-base >= 0.88.0
 
 BuildRequires:	perl-XML-Parser  
 BuildRequires:	pkgconfig(gtk+-2.0)
+BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	icon-naming-utils  
 BuildRequires:	icon-slicer  
 BuildRequires:	python  
@@ -27,7 +28,6 @@ Contains the themes and icons that make up the Sugar default look and feel.
 
 %prep
 %setup -q
-%patch -p1
 
 %build
 %define __libtoolize true
