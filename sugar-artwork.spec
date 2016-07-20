@@ -3,8 +3,8 @@
 %define _disable_ld_no_undefined 1
 
 Name:		sugar-artwork
-Version:	0.101.4
-Release:	2
+Version:	0.108.1
+Release:	1
 Summary:	Artwork for Sugar look-and-feel
 License:	LGPLv2+
 Group:		Graphical desktop/Other
@@ -20,7 +20,7 @@ BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	icon-naming-utils  
 BuildRequires:	icon-slicer  
-BuildRequires:	python  
+BuildRequires:	python2
 BuildRequires:	xcursorgen
 
 %description
