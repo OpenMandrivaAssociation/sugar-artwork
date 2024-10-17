@@ -8,7 +8,7 @@ Release:	1
 Summary:	Artwork for Sugar look-and-feel
 License:	LGPLv2+
 Group:		Graphical desktop/Other
-Url:		http://sugarlabs.org/
+Url:		https://sugarlabs.org/
 
 Source0:	http://download.sugarlabs.org/sources/sucrose/glucose/sugar-artwork/sugar-artwork-%{version}.tar.xz
 
