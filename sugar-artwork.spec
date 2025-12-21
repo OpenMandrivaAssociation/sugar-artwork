@@ -15,6 +15,11 @@ Source0:	http://download.sugarlabs.org/sources/sucrose/glucose/sugar-artwork/sug
 Requires:	gtk+2.0 >= 2.9.0
 Requires:	sugar-base >= 0.88.0
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	perl-XML-Parser  
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
