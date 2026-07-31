@@ -3,7 +3,7 @@
 %define _disable_ld_no_undefined 1
 
 Name:		sugar-artwork
-Version:	0.108.1
+Version:	0.121
 Release:	1
 Summary:	Artwork for Sugar look-and-feel
 License:	LGPLv2+
